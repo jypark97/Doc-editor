@@ -79,13 +79,13 @@ export default class Main extends React.Component {
         />)
     }
     return(
-      <div style={{backgroundColor:"white", padding: "20px", paddingTop: "30px", border: "solid 15px", borderColor: "#a28baf"}}>
+      <div style={{backgroundColor:"white", padding: "20px", paddingTop: "30px", border: "solid 2px", borderColor: "#a28baf"}}>
       {/* <AppBar
         title={this.state.title}
         onLeftIconButtonClick={() => this.showEditors}
       /> */}
       <br/>
-      <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "#a28baf"}}>
+      <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: 'black'}}>
         {this.props.username}'s Documents
         <button
           type="button"
@@ -110,7 +110,7 @@ export default class Main extends React.Component {
 <br/>
 <br/>
     <br/>
-    <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "#a28baf"}}>
+    <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "black"}}>
     Shared Documents
     </div>
     <div style={{display: 'inlineBlock', height: "100px", border:"solid 8px", margin: 10, borderColor: "#a28baf"}}>

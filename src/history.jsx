@@ -125,13 +125,13 @@ export default class History extends React.Component {
         float: "right"
       }}
       onClick={() => this.props.navigate("doc", this.props.userId, this.props.docId)}> Back</button>
-        <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "#a28baf"}}>
+        <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "black"}}>
         {this.props.username}'s History
         </div>
         <div style={{display: 'inlineBlock', height: "100px", border:"solid 8px", margin: 10, borderColor: "#a28baf", overflow: 'auto'}}>
         {this.state.lastEditTimeArray.map((timestamp, index) => <button onClick={()=> this.onTime(index)}> {timestamp} </button>)}
         </div>
-        <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "#a28baf"}}>
+        <div style={{fontFamily:'Lucida, sans-serif', fontSize:"40px", padding: 10, color: "black"}}>
         Restore Version
         </div>
         <div style={{display: 'inlineBlock', height: "100px", border:"solid 8px", margin: 10, borderColor: "#a28baf", overflow: 'auto'}}>

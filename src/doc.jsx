@@ -248,7 +248,7 @@ export default class Doc extends React.Component {
     return (
       <div>
         <AppBar
-          title={this.state.title}
+          title=""
           onLeftIconButtonClick={this.showEditors.bind(this)}
           iconElementRight={<button style={{
             color: 'white',

@@ -41,7 +41,7 @@ export default class CreateDoc extends React.Component {
           <TextField
 
             floatingLabelText="Document Title"
-            defaultValue="Untitled"
+            defaultValue=""
             onChange={e => this.setState({ title: e.target.value })}
           />
         <br/>
